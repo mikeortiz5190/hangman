@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-myWords = ["engine", "animal", "whiskey", "purple", "everest", "fahrenheight"];
+myWords = ["engine", "animal", "whiskey", "purple", "everest", "fahrenheight", "subaru", "onomatopoeia", "gorilla", "breitling", "chewbacca", "asshole", "falisha", "samsung", "supernova", "johnniewalker", "trump", "dominoes", "microsoft"];
 
 //TO KEEP TRACK OF WINS/LOSSES
 var wins = 0;
