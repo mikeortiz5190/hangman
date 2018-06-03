@@ -93,10 +93,11 @@ $(".aButton").on('click', function(){
 
 function GameOver(){
  console.log("u loose");
+ $("#keyboard").html( "<h1>You loose!!!</h1><br><<h3>Now refresh the page to start again!</h3>" );
 }
 
 function Winner(){
-    $("#keyboard").html( "<p>" + guessesLeft + "</p>" );
+    $("#keyboard").html( "<h1>You win!!!</h1><br><<h3>Now refresh the page to start again!</h3>" );
 }
 
 
